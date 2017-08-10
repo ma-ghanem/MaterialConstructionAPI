@@ -177,7 +177,12 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="DAL\AbstractManager.cs" />
+    <Compile Include="DAL\UserManager.cs" />
+    <Compile Include="DAO\User.cs" />
+    <Compile Include="DBContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
